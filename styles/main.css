@@ -27,16 +27,19 @@ body {
 
 #pronouns {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 h1 {
   text-align: center;
+  font-size: 50px;
+  margin-bottom: 10px;
 }
 
-.intro {
-  text-align: justify;
-  margin-top: 15px;
-  margin-bottom: 15px;
+.quote {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #page-container {
@@ -50,9 +53,21 @@ h1 {
 }
 
 #footer {
-  position: absolute;
+  position: static;
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  border-radius: 7.5%;
+}
+
+.blog {
   text-align: center;
 }
