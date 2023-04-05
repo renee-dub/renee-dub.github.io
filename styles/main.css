@@ -8,6 +8,23 @@ body {
   font-family: 'Playfair Display', 'sans-serif';
 }
 
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: antiquewhite;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
 #pronouns {
   text-align: center;
 }
@@ -25,7 +42,7 @@ h1 {
 #page-container {
   position: relative;
   min-height: 100vh;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 15px 20px 15px;
 }
 
 #content-wrap {
