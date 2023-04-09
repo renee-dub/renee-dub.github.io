@@ -81,3 +81,10 @@ img {
 #sprint-2-tech-blog {
   text-align: left;
 }
+
+.tech-blog-img {
+  margin-top: 15px;
+  display: inline-block;
+  width: 15%;
+  border-radius: 7.5%;
+}
