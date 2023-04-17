@@ -73,7 +73,7 @@ img {
   border-radius: 7.5%;
 }
 
-.blog {
+#blog-central {
   text-align: center;
   padding: 10px;
 }
@@ -92,4 +92,8 @@ img {
 .eq-iq {
   text-align: left;
   width: 100%;
+}
+
+ul {
+  list-style-type: none;
 }
